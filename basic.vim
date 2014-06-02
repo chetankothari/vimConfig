@@ -53,3 +53,18 @@ syntax on
 filetype on
 filetype plugin on
 filetype plugin indent on
+
+" updates the file when changed from outside vim while it is open in vim
+set autoread
+
+" set 7 lines to the cursor - while moving vertically using j/k
+set so=3
+
+" show the current line
+set cursorline
+
+" show the current column
+"set cursorcolumn
+
+" enable linenumbers
+set number
