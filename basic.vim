@@ -68,3 +68,7 @@ set cursorline
 
 " enable linenumbers
 set number
+
+" expand tabs to spaces
+" each tab is replaced with 2 spaces
+:set tabstop=4 shiftwidth=4 expandtab
