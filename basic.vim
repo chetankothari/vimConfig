@@ -72,3 +72,15 @@ set number
 " expand tabs to spaces
 " each tab is replaced with 2 spaces
 :set tabstop=4 shiftwidth=4 expandtab
+
+" Automatically indent when adding a curly bracket, etc.
+set smartindent
+
+" Show line number, cursor position.
+set ruler
+
+" Search as you type.
+set incsearch
+
+" Ignore case when searching.
+set ignorecase
