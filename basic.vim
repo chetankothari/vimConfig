@@ -84,3 +84,7 @@ set incsearch
 
 " Ignore case when searching.
 set ignorecase
+
+" Folding based on indentation
+set foldmethod=indent
+set foldnestmax=10
